@@ -1,1 +1,1 @@
-web: bundle exec middleman build && middleman server
+web: bundle exec middleman build && rackup
