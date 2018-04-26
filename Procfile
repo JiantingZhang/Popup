@@ -1,1 +1,1 @@
-web: bundle exec middleman build && rackup
+web: bundle exec puma -p $PORT
