@@ -1,9 +1,8 @@
 // index page
 #logo{
-  margin-left:0px;
-}
-.img{
-margin-left:0px;
+  position:absolute;
+  top:30px;
+  left:30px;
 }
 
 body {
@@ -342,15 +341,14 @@ $xxs: .7vw;
 
 // RESPONSIVE GUTTER VARS
 
-$v-gutter: 6vw;
-$h-gutter: 10vw;
+$v-gutter: 5vw;
+$h-gutter: 7vw;
 
 // RESPONSIVE LAYOUT STUFF
 
 body {
   height: 100vh;
   width: 100vw;
-  margin: 0;
   padding: $v-gutter $h-gutter;
   @include font-size($default);
 
@@ -390,7 +388,7 @@ html {
   font-family: 'Raleway', arial, sans-serif;
   color: rgba(0,0,0,.5);
   background-size: cover;
-  background: linear-gradient(45deg, #3B3B7A, #91617E);
+  // background: linear-gradient(45deg, #3B3B7A, #91617E);
 
   * {
     font-weight: 200;
@@ -408,8 +406,8 @@ h2 {
 
 .card {
   max-width: 100%;
-  margin-left:30px;
   flex-direction: column;
+  margin:20px;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -437,6 +435,7 @@ h2 {
 .gravatar1 {
   border-radius: 100%;
   margin-bottom: 1em;
+  margin:auto;
   height: 75px;
   width: 75px;
   background: url('https://res.cloudinary.com/wagon/image/upload/c_fill,g_face,h_200,w_200/hgpfslxzx3awdo1iap6z.jpg') center;
@@ -447,6 +446,7 @@ h2 {
 .gravatar2 {
   border-radius: 100%;
   margin-bottom: 1em;
+  margin:auto;
   height: 75px;
   width: 75px;
   background: url('https://res.cloudinary.com/wagon/image/upload/c_fill,g_face,h_200,w_200/qfzmik3clpvppmrfqq4z.jpg') center;
@@ -457,6 +457,7 @@ h2 {
 .gravatar3 {
   border-radius: 100%;
   margin-bottom: 1em;
+  margin:auto;
   height: 75px;
   width: 75px;
   background: url('https://avatars0.githubusercontent.com/u/34390135?v=4') center;
