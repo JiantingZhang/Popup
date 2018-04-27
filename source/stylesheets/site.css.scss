@@ -193,12 +193,19 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  flex-direction: column;
+  flex-direction: row;
 }
 .container-contact {
   display: flex;
   margin: 20px auto;
 }
+
+.home-contact {
+  display: block;
+  margin: 20px auto;
+
+}
+
 @media (max-width: 767px) {
   .container {
     flex-direction: column;
@@ -369,6 +376,8 @@ body {
   justify-content: center;
   text-align: center;
   box-sizing: border-box;
+  flex-direction: column;
+
 }
 
 // ---------------------------------
