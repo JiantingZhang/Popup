@@ -188,24 +188,6 @@ body {
   display: flex;
   margin: 0 auto;
 }
-.contact-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  flex-direction: row;
-}
-.container-contact {
-  display: flex;
-  margin: 20px auto;
-}
-
-.home-contact {
-  display: block;
-  margin: 20px auto;
-
-}
-
 @media (max-width: 767px) {
   .container {
     flex-direction: column;
@@ -360,7 +342,7 @@ $xxs: .7vw;
 // RESPONSIVE GUTTER VARS
 
 $v-gutter: 5vw;
-$h-gutter: 7vw;
+$h-gutter: 8vw;
 
 // RESPONSIVE LAYOUT STUFF
 
@@ -376,8 +358,6 @@ body {
   justify-content: center;
   text-align: center;
   box-sizing: border-box;
-  flex-direction: column;
-
 }
 
 // ---------------------------------
@@ -427,7 +407,7 @@ h2 {
 .card {
   max-width: 100%;
   flex-direction: column;
-  margin:20px;
+  margin:10px;
   align-items: center;
   justify-content: center;
   text-align: center;
